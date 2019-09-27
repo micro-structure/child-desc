@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-button @click="$parent.show()">调用 parent</el-button>
   </div>
 </template>
 
@@ -15,7 +15,12 @@ export default {
     HelloWorld
   },
   created () {
-    console.log(this.$route.name)
+    // console.log(this.$parent)
+  },
+  methods: {
+    show () {
+      this.$message.success('调用 child 成功')
+    }
   }
 }
 </script>
