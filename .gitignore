@@ -8,8 +8,6 @@ public/font/*
 public/index.html
 public/favicon.ico
 
-dist
-
 # local env files
 .env.local
 .env.*.local
