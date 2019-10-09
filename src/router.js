@@ -1,9 +1,7 @@
-import Home from './views/Home.vue'
-
 window.router.addRoutes([
   {
     path: '/',
-    name: 'home2',
-    component: Home
+    name: 'home',
+    component: () => import('./views/Home.vue')
   }
 ])
