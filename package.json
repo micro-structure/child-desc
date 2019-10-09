@@ -5,15 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "micro": "vue invoke micro --url https://github.com/micro-structure/parent.git --mode awesome"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
-    "element-ui": "^2.4.5",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "core-js": "^2.6.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -25,8 +20,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "vue-cli-plugin-element": "^1.0.1",
-    "vue-cli-plugin-micro": "file:../plugin",
+    "vue-cli-plugin-micro": "^1.0.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
