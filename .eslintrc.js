@@ -3,6 +3,13 @@ module.exports = {
   env: {
     node: true
   },
+  globals: {
+    router: 'readonly',
+    store: 'readonly',
+    VueRouter: 'readonly',
+    Vuex: 'readonly',
+    Vue: 'readonly'
+  },
   'extends': [
     'plugin:vue/essential',
     'eslint:recommended'

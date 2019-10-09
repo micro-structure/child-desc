@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "micro": "vue invoke micro --url https://git.shinemo.com/scm/ub-web/report-tools.git --mode awesome"
+    "micro": "vue invoke micro --url https://github.com/micro-structure/parent.git --mode awesome"
   },
   "dependencies": {
     "core-js": "^2.6.5",
