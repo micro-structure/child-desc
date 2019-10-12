@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <img src="../assets/logo.png" alt="">
     <el-button @click="$parent.show()">调用 parent</el-button>
   </div>
 </template>
