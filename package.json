@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "micro prebuild && vue-cli-service build && micro postbuild",
     "lint": "vue-cli-service lint",
     "micro": "vue invoke micro --url https://github.com/micro-structure/parent.git --mode awesome"
   },
@@ -21,6 +21,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "micro-structure-cli": "^1.0.3",
     "vue-cli-plugin-micro": "^1.0.2",
     "vue-template-compiler": "^2.6.10"
   }
