@@ -19,7 +19,7 @@
     "babel-plugin-component": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "less": "^3.0.4",
+    "less": "2.7.2",
     "less-loader": "^5.0.0",
     "micro-structure-cli": "^1.0.3",
     "vue-cli-plugin-micro": "^1.0.2",

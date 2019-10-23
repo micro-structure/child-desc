@@ -10,5 +10,9 @@ window.router.addRoutes([
     name: 'home',
     // component: () => import('./views/Home.vue')
     component: Home
+  },
+  {
+    path: '/user/pwd',
+    component: { template: `<p>密码设置</p>` }
   }
 ])

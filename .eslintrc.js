@@ -8,7 +8,9 @@ module.exports = {
     store: 'readonly',
     VueRouter: 'readonly',
     Vuex: 'readonly',
-    Vue: 'readonly'
+    Vue: 'readonly',
+    _MICRO_APP_CONFIG: 'readonly',
+    _MICRO_APP_CONFIG_MENU: 'readonly',
   },
   'extends': [
     'plugin:vue/essential',
